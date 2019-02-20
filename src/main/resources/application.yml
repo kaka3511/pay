@@ -1,0 +1,15 @@
+server:
+  port: 5051
+
+
+
+#二维码前缀
+qrCodePrefix: http://qr.topscan.com/api.php?w=200&h=200&text=
+#微信支付相关key
+wxAppid: wx942532542d756908
+wxPayMchid: 1521571471
+wxPayKey: 419E293D253367527FD9C1382308E129
+#统一下单接口
+wxPayOrder: https://api.mch.weixin.qq.com/pay/unifiedorder
+#微信回调接口(公网ip或者域名)
+notifyUrl: http://139.199.59.97:5051/wx/payCallback
